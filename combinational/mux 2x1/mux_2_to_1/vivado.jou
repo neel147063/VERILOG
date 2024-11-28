@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Nov 27 09:36:00 2024
+# Process ID: 16328
+# Current directory: C:/Users/NEEL/Downloads/verilog/combinational circuit/mux_2_to_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20856 C:\Users\NEEL\Downloads\verilog\combinational circuit\mux_2_to_1\mux_2_to_1.xpr
+# Log file: C:/Users/NEEL/Downloads/verilog/combinational circuit/mux_2_to_1/vivado.log
+# Journal file: C:/Users/NEEL/Downloads/verilog/combinational circuit/mux_2_to_1\vivado.jou
+# Running On: LAPTOP-D8D1P33S, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16869 MB
+#----------------------------------------------------------ststart_guopen_project {C:/Users/NEEL/Downloads/verilog/combinational circuit/mux_2_to_1/mux_2_to_1.xpr}
+upopen_project {C:/Users/NEEL/Downloads/verilog/combinational circuit/mux_2_to_1/mux_2_to_1.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/NEEL/Downloads/verilog/combinational circuit/mux_2_to_1/mux2_1_behav.wcfg}
+source mux2_1.tcl
+add_force {/mux2_1/a} -radix hex {1. 0ns}
+add_force {/mux2_1/a} -radix hex {1 0ns}
+add_force {/mux2_1/b} -radix hex {0 0ns}
+add_force {/mux2_1/s0} -radix hex {0 0ns}
+run 15000 ns
+add_force {/mux2_1/s0} -radix hex {1 0ns}
+run 15000 ns
+restart
+add_force {/mux2_1/a} -radix hex {0 0ns}
+add_force {/mux2_1/a} -radix hex {1 0ns}
+add_force {/mux2_1/b} -radix hex {0 0ns}
+add_force {/mux2_1/s0} -radix hex {0 0ns}
+run 15000 ns
+run 10 ns
+restart
+run 100 ns
+add_force {/mux2_1/s0} -radix hex {1 0ns}
+run 100 ns
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run synth_1 -name synth_1
+close_design
+close_design
+close_sim
+close_project

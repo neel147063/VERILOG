@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1728052676">
+  <File Type="ROUTE-PWR" Name="ms2_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="m_s_ff.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="ms2_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="m_s_ff_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="m_s_ff.msk"/>
+  <File Type="ROUTE-CLK" Name="ms2_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="m_s_ff.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ms2_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="m_s_ff.bit"/>
+  <File Type="BG-DRC" Name="m_s_ff.drc"/>
+  <File Type="BG-BGN" Name="m_s_ff.bgn"/>
+  <File Type="BG-BIN" Name="m_s_ff.bin"/>
+  <File Type="BITSTR-RBT" Name="m_s_ff.rbt"/>
+  <File Type="BITSTR-NKY" Name="m_s_ff.nky"/>
+  <File Type="BITSTR-BMM" Name="m_s_ff_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="m_s_ff.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ms2_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="m_s_ff.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ms2_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="m_s_ff.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="m_s_ff_boot.pdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="m_s_ff.npi"/>
+  <File Type="OPT-DRC" Name="ms2_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="m_s_ff.rbd"/>
+  <File Type="OPT-HWDEF" Name="m_s_ff.hwdef"/>
+  <File Type="PLACE-IO" Name="ms2_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ms2_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ms2_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ms2_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="m_s_ff_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="ms2_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ms2_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="ms2_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ms2_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ms2_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="m_s_ff_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="m_s_ff_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="m_s_ff_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ms2_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="m_s_ff_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ms2_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="ms2_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ms2_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ms2_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ms2_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="m_s_ff_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="m_s_ff_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="m_s_ff_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="m_s_ff_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="m_s_ff_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="m_s_ff_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="m_s_ff_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ms2_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ms2_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ms2_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ms2_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ms2_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="ms2_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ms2_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="m_s_ff.pdi"/>
+  <File Type="PL-PDI-FILE" Name="m_s_ff_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="m_s_ff.rcfi"/>
+  <File Type="CFI_FILE" Name="m_s_ff.cfi"/>
+  <File Type="RNPI_FILE" Name="m_s_ff.rnpi"/>
+  <File Type="ROUTE-RQS" Name="m_s_ff_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="m_s_ff_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/m_s_ff.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="m_s_ff"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>

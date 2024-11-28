@@ -1,0 +1,4 @@
+Running: xsim.dir/number_pad_behav/xsimk.exe -simmode gui -wdb number_pad_behav.wdb -simrunnum 0 -socket 51513
+Design successfully loaded
+Design Loading Memory Usage: 9120 KB (Peak: 9120 KB)
+Design Loading CPU Usage: 77 ms

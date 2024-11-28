@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="demux_1_8_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="demux_1_8" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,029,997 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,030,001 ps"></ZoomEndTime>
+      <Cursor1Time time="1,030,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/demux_1_8/din" type="logic">
+      <obj_property name="ElementShortName">din</obj_property>
+      <obj_property name="ObjectShortName">din</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demux_1_8/s" type="array">
+      <obj_property name="ElementShortName">s[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/demux_1_8/i" type="array">
+      <obj_property name="ElementShortName">i[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/demux_1_8/w" type="array">
+      <obj_property name="ElementShortName">w[1:0]</obj_property>
+      <obj_property name="ObjectShortName">w[1:0]</obj_property>
+   </wvobject>
+</wave_config>

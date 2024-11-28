@@ -1,0 +1,311 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Nov 10 20:45:19 2024
+# Process ID: 19076
+# Current directory: C:/Users/NEEL/Downloads/verilog/Sequential Circuits/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11236 C:\Users\NEEL\Downloads\verilog\Sequential Circuits\counter\counter.xpr
+# Log file: C:/Users/NEEL/Downloads/verilog/Sequential Circuits/counter/vivado.log
+# Journal file: C:/Users/NEEL/Downloads/verilog/Sequential Circuits/counter\vivado.jou
+# Running On: LAPTOP-D8D1P33S, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16869 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/NEEL/Downloads/verilog/Sequential Circuits/counter/counter.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source ring_counter.tcl
+add_force {/ring_counter/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/ring_counter/clr} -radix hex {0 0ns}
+add_force {/ring_counter/preset} -radix hex {0 0ns}
+add_force {/ring_counter/preset} -radix hex {1 0ns}
+add_force {/ring_counter/preset} -radix hex {0 0ns}
+run 15000 ns
+run 15000 ns
+run 15000 ns
+add_force {/ring_counter/preset} -radix hex {1 0ns}
+run 15000 ns
+add_force {/ring_counter/preset} -radix hex {03 0ns}
+add_force {/ring_counter/preset} -radix hex {0 0ns}
+run 15000 ns
+run 15000 ns
+run 15000 ns
+run 15000 ns
+run 15000 ns
+run 15000 ns
+run 15000 ns
+add_force {/ring_counter/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+run 15000 ns
+run 15000 ns
+run 15000 ns
+add_force {/ring_counter/clk} -radix hex {1 0ns}
+run 15000 ns
+run 100 ns
+run 100 ns
+add_force {/ring_counter/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/ring_counter/clr} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/ring_counter/clr} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/ring_counter/clr} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/ring_counter/preset} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/ring_counter/preset} -radix hex {0 0ns}
+add_force {/ring_counter/clr} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top johnson_counter_gate [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+source johnson_counter_gate.tcl
+add_force {/johnson_counter_gate/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/johnson_counter_gate/reset} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+add_force {/johnson_counter_gate/reset} -radix hex {1 0ns}
+run 100 ns
+add_force {/johnson_counter_gate/reset} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top up_counter [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+launch_simulation
+close_sim
+launch_simulation
+source up_counter.tcl
+add_force {/up_counter/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+add_force {/up_counter/reset} -radix hex {0 0ns}
+add_force {/up_counter/reset} -radix hex {1 0ns}
+run 100 ns
+add_force {/up_counter/t} -radix hex {1 0ns}
+run 100 ns
+add_force {/up_counter/reset} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/up_counter/t} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/up_counter/clk} -radix hex {0 0ns}
+run 100 ns
+add_force {/up_counter/clk} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+add_force {/up_counter/clk} -radix hex {0 0ns}
+run 100 ns
+add_force {/up_counter/t} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+add_force {/up_counter/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/up_counter/t} -radix hex {0 0ns}
+run 100 ns
+add_force {/up_counter/t} -radix hex {0 0ns} {1 50000ps} -repeat_every 100000ps
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/up_counter/t} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top down_counter [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+close_sim
+launch_simulation
+source down_counter.tcl
+add_force {/down_counter/t} -radix hex {1 0ns}
+add_force {/down_counter/reset} -radix hex {1 0ns}
+add_force {/down_counter/clk} -radix hex {1 0ns} {0 50000ps} -repeat_every 100000ps
+run 100 ns
+add_force {/down_counter/reset} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/down_counter/t} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/down_counter/t} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/down_counter/reset} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/down_counter/reset} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/down_counter/t} -radix hex {1 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+add_force {/down_counter/t} -radix hex {0 0ns}
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim

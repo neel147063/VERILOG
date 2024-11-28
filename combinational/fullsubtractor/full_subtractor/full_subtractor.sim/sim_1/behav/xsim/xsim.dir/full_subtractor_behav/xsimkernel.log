@@ -1,0 +1,7 @@
+Running: xsim.dir/full_subtractor_behav/xsimk.exe -simmode gui -wdb full_subtractor_behav.wdb -simrunnum 0 -socket 51844
+Design successfully loaded
+Design Loading Memory Usage: 10048 KB (Peak: 10048 KB)
+Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 10736 KB (Peak: 10736 KB)
+Simulation CPU Usage: 265 ms

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "number_pad_behav" "xil_defaultlib.number_pad" "xil_defaultlib.glbl" -log "elaborate.log" 

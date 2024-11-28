@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="full_adder_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="full_adder" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="996.916 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,030.217 ns"></ZoomEndTime>
+      <Cursor1Time time="1,013.016 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="340"></NameColumnWidth>
+      <ValueColumnWidth column_width="155"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/full_adder/a" type="logic">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/b" type="logic">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/cin" type="logic">
+      <obj_property name="ElementShortName">cin</obj_property>
+      <obj_property name="ObjectShortName">cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/s" type="logic">
+      <obj_property name="ElementShortName">s</obj_property>
+      <obj_property name="ObjectShortName">s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/c" type="logic">
+      <obj_property name="ElementShortName">c</obj_property>
+      <obj_property name="ObjectShortName">c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/w0" type="logic">
+      <obj_property name="ElementShortName">w0</obj_property>
+      <obj_property name="ObjectShortName">w0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/w1" type="logic">
+      <obj_property name="ElementShortName">w1</obj_property>
+      <obj_property name="ObjectShortName">w1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/full_adder/w2" type="logic">
+      <obj_property name="ElementShortName">w2</obj_property>
+      <obj_property name="ObjectShortName">w2</obj_property>
+   </wvobject>
+</wave_config>

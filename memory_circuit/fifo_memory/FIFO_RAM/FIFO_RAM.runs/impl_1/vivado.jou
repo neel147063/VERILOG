@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Oct 18 16:16:22 2024
+# Process ID: 11708
+# Current directory: C:/Users/NEEL/Downloads/verilog/memory circuit/FIFO_RAM/FIFO_RAM.runs/impl_1
+# Command line: vivado.exe -log FIFO_RAM.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source FIFO_RAM.tcl -notrace
+# Log file: C:/Users/NEEL/Downloads/verilog/memory circuit/FIFO_RAM/FIFO_RAM.runs/impl_1/FIFO_RAM.vdi
+# Journal file: C:/Users/NEEL/Downloads/verilog/memory circuit/FIFO_RAM/FIFO_RAM.runs/impl_1\vivado.jou
+# Running On: LAPTOP-D8D1P33S, OS: Windows, CPU Frequency: 3110 MHz, CPU Physical cores: 12, Host memory: 16869 MB
+#-----------------------------------------------------------
+source FIFO_RAM.tcl -notrace
